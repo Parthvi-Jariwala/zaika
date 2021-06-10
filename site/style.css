@@ -1,0 +1,76 @@
+#top{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#top img{
+    width:80px;
+    height: 90px;;
+    float: left; 
+    padding-left: 0%;
+}
+#top h1{
+    padding-top: 30px;
+    color: brown; 
+}
+#food img{
+    width: 1450px;
+    height: 600px;
+    padding-left: 2%;
+}
+#app h1{
+    text-align: center;
+    font-weight: 700;
+    color:lightsalmon;
+}
+.dis{
+    background-color: rgb(228, 228, 228);
+    height: 400px;
+    width: 1500px;
+}
+#app .dis, #ent .dis, #dessert .dis{
+    display: flex;
+}
+#app h2, #ent h2, #dessert h2{
+    text-align: center;
+    color: cadetblue;
+}
+#app .sp, #ent .sp{
+    padding-top: 10px; 
+    padding-left: 10px;
+}
+#app .fry, #ent .fry{
+    padding-top: 10px; 
+    padding-left: 130px;
+}
+#app .dump, #ent .dump, #dessert .dump{
+    padding-top: 10px; 
+    padding-left: 130px;
+}
+#app .wing, #ent .wing{
+    padding-top: 10px; 
+    padding-left: 130px;
+    padding-right: 10px;
+}
+#app span img, #ent span img, #dessert span img{
+    width: 270px; 
+    height: 200px;
+    border: 1px solid gray;
+}
+#app span p, #ent span p, #dessert span p{
+    padding-left: 1%;
+    color:rgb(189, 69, 69);
+}
+#app span p b, #ent span p b, #dessert span p b{
+    font-size: 20px;
+}
+#dessert .fry{
+    padding-top: 10px; 
+    padding-left: 400px;
+}
+.sub{
+    background-color: rgb(189, 69, 69);
+}
+fieldset legend{
+    font-size: 25px;
+}
+
+

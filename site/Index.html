@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Restaurant Menu</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="top">
+            <img src="images/logo.jpg">
+            <h1>Zaika Restaurant</h1>
+        </div>
+        <div id="food">
+            <img src="images/food.jpg">
+        </div>
+
+        <div id="app">
+        <h1>Menu</h1>
+        <h2><u>Appetizers</u></h2>
+        <span class="dis">            
+            <span class="sp">
+                <img src="images/app1.jpg">
+                <p><b>Spring rolls (2)</b></p>
+                <p>thin wraps with white meat and cabbage</p>
+                <p>Price: $3.00</p>
+            </span>
+            <span class="fry">
+                <img src="images/app2.jpg">
+                <p><b>Fries</b></p>
+                <p>fresh cut fries with a healthy dose of freshly minced garlic mixed throughout.</p>
+                <p>Price: $3.50</p>
+            </span>
+            <span class="dump">
+                <img src="images/app3.jpg">
+                <p><b>Steamed (or Pan Fried) Vegetable Dumplings (6)</b></p>
+                <p>house-made dough dumpling with carrot, mushroom, cellophane noodles, cabbage (6 pieces)</p>
+                <p>Price: $7.95</p>
+            </span>
+            <span class="wing">
+                <img src="images/app4.jpg">
+                <p><b>Fried Chicken Wing (6)</b></p>
+                <p>6 pieces of curry-flavored chicken wings</p>
+                <p>Price: $4.95</p>
+            </span>
+        </span>
+        </div>
+
+        <div id="ent">
+        <h2><u>Entrees</u></h2>
+        <span class="dis">            
+            <span class="sp">
+                <img src="images/en1.jpg">
+                <p><b>Vegetable Fried Rice</b></p>
+                <p>broccoli, snow peas, onions, and bean sprouts sauteed with rice</p>
+                <p>Price: $8.95(small) $11.45(large)</p>
+            </span>
+            <span class="fry" >
+                <img src="images/en2.jpg">
+                <p><b>Chicken Lo Mein</b></p>
+                <p>white meat chicken, onions, and bean sprouts sauteed with soft lo mein noodles</p>
+                <p>Price: $9.95(small) $11.95(large)</p>
+            </span>
+            <span class="dump">
+                <img src="images/en3.jpg">
+                <p><b>Bean Curd, Hunan Style</b></p>
+                <p>bean curd lightly fried then sauteed with green pepper, snow peas, and water chestnuts in brown sauce</p>
+                <p>Price: $9.45(small) $11.45(large)</p>
+            </span>
+            <span class="wing">
+                <img src="images/en4.jpg">
+                <p><b>Curry Chicken</b></p>
+                <p>white meat chicken sauteed with ionions, peas, carrots, and broccoli</p>
+                <p>Price: $12.95(small) $17.95(large)</p>
+            </span>
+        </span>
+        </div>
+
+        <div id="dessert"> 
+        <h2><u>Desserts</u></h2>
+        <span class="dis">            
+            <span class="fry">
+                <img src="images/ds1.jpg">
+                <p><b>Chocolate Truffle Cake</b></p>
+                <p>Price: $4.25</p>
+            </span>
+            <span class="dump">
+                <img src="images/ds2.jpg">
+                <p><b>Cappuccino Apricot Cake</b></p>
+                <p>Price: $4.25</p>
+            </span>
+        </span>
+        </div>
+        <fieldset >
+            <legend>Online Order</legend>            
+            <form action="Index.html" method="POST">
+                <p><b><u>Appetizers:</u></b>
+                    <br />
+                    <input type="checkbox" name="appetizer" value="springroll"> Spring rolls (2) <br />
+                    <p style="padding-left: 30px;">Quantity:
+                       <select>
+                           <option>1</option>
+                           <option>2</option>
+                           <option>3</option>
+                           <option>4</option>
+                           <option>5</option>
+                       </select>
+                    </p>
+                    <input type="checkbox" name="appetizer" value="fries"> Fries <br />
+                    <p style="padding-left: 30px;">Quantity:
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                     </p>
+                    <input type="checkbox" name="appetizer" value="dumpling"> Steamed (or Pan Fried) Vegetable Dumplings (6) <br />
+                    <p style="padding-left: 30px;">Quantity:
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                     </p>
+                    <input type="checkbox" name="appetizer" value="chickenwings"> Fried Chicken Wing (6) <br />
+                    <p style="padding-left: 30px;">Quantity:
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                     </p>
+                </p>
+                        
+                <p><b><u>Entrees:</u></b>
+                    <br />
+                    <input type="checkbox" name="entrees" value="friedrice"> Vegetable Fried Rice <br />
+                    <p style="padding-left: 30px;">Quantity:
+                       <select>
+                           <option>1</option>
+                           <option>2</option>
+                           <option>3</option>
+                           <option>4</option>
+                           <option>5</option>
+                       </select>
+                    </p>
+                    <input type="checkbox" name="entrees" value="lomein"> Chicken Lo Mein <br />
+                    <p style="padding-left: 30px;">Quantity:
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                     </p>
+                    <input type="checkbox" name="entrees" value="beancurd"> Bean Curd, Hunan Style <br />
+                    <p style="padding-left: 30px;">Quantity:
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                     </p>
+                    <input type="checkbox" name="entrees" value="currychicken"> Curry Chicken <br />
+                    <p style="padding-left: 30px;">Quantity:
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                     </p>
+                </p>
+
+                <p><b><u>Desserts:</u></b>
+                    <br />
+                    <input type="checkbox" name="desserts" value="chocolatecake"> Chocolate Truffle Cake <br />
+                    <p style="padding-left: 30px;">Quantity:
+                       <select>
+                           <option>1</option>
+                           <option>2</option>
+                           <option>3</option>
+                           <option>4</option>
+                           <option>5</option>
+                       </select>
+                    </p>
+                    <input type="checkbox" name="desserts" value="cappuccinocake"> Cappuccino Apricot Cake <br />
+                    <p style="padding-left: 30px;">Quantity:
+                        <select>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                     </p>
+                </p>
+            </form>  
+
+            <form action="Index.html" method="POST">
+                <h3>Credit Card</h3>
+                <p>First Name:
+                    <input type="text" name="cc" required="required"></p>
+                <p>Last Name:
+                    <input type="text" name="cc" required="required"></p>
+                <p>Credit Card Number:
+                    <input type="text" name="cc" placeholder="0000 0000 0000 0000" required="required"></p>
+                <p>Security Code:
+                    <input type="password" name="cc" maxlength="4" required="required"></p>
+                <p>Expiration:
+                    <input type="text" placeholder="00-00" name="cc" required="required"></p>
+            
+                <h3>Billing Address/Shipping Address</h3>
+                <p>Street Address:
+                    <input type="text" name="address" required="required"></p>
+                <p>Street Address Line 2:
+                    <input type="text" name="address"></p>
+                <p>City:
+                    <input type="text" name="address" required="required"></p>
+                <p>State:
+                    <input type="text" name="address" required="required"></p>
+                <p>Postal/Zip Code:
+                    <input type="text" name="address" required="required"></p>
+                <p>Country:
+                    <input type="text" name="address" required="required"></p>
+                <input class="sub" type="submit" value="Submit">
+            </form>
+        </fieldset>
+
+        <a href="#top" style="font-size: 20px; color: blue;">Top</a>
+    </body>
+</html>
